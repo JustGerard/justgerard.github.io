@@ -32,9 +32,9 @@
 
       <main role="main" class="inner cover">
         <h1 class="cover-heading">It's muffin time</h1>
-        <video controls autoplay onloadstart="this.volume=0.2">
-            <source src="song.mp4" type="video/mp4">
-          </video>       
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LACbVhgtx9I?autoplay=1&loop=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen onload="this.setVolume(20)"></iframe>
+        </div>       
       </main>
 
       <footer class="mastfoot mt-auto">
